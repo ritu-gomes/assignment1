@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/* designing header section*/
+
+.header{
+    padding: 1rem;
+    height: 450px;
+    background-image: url('images/header-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header h1 span{
+    font-family: 'Lobster', cursive;
+}
+
+.describes,.image{
+    width: 40%;
+    float: left;
+    margin-left: 10% ;
+    padding: 2rem;
+}
+
+.header img{
+    width: 90%;
+}
+h1{
+    text-transform: capitalize;
+    margin: 2rem 0;
+}
+h1 span{
+    text-transform: uppercase;
+    color: rgb(28, 201, 245);
+}
+h3{
+    text-transform: capitalize;
+    margin-bottom: .7rem;
+}
+p{
+    color: rgb(54, 50, 50);
+}
+button{
+    border: none;
+    margin-top: 1.5rem;
+    border-radius: .2rem;
+    background: rgb(112, 14, 240);
+    padding: .8rem 1rem;
+}
+button a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+button:hover{
+    background: #ffffff;
+    border: 2px solid rgb(112, 14, 240) ;
+    color: rgb(112, 14, 240);
+}
+button a:hover{
+    color: rgb(112, 14, 240);
+}
+
+/* section bio designing*/
+
+.bio{
+    padding: 1rem;
+    height: 500px;
+    background-image: url('images/biography-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bio img{
+    width: 90%;
+    height: 85%;
+}
+.bio .image{
+    padding-top: 0;
+    padding-bottom: 3rem;
+    text-align: right;
+}
+/* work section design*/
+
+.work{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    background-image: url('images/latest-work-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    text-transform: capitalize;
+    margin: 2rem auto;
+}
+
+.work div img{
+    width: 100%;
+}
+.work div{
+    width: 30%;
+}
+.img1{
+    float: left;
+    margin: 0 1%;
+}
+.img2{
+    float: left;
+    margin: 0 2%;
+}
+.img3{
+    float: left;
+    margin: 0 2%;
+}
+/* types section*/
+
+.type{
+    padding: 2rem;
+    text-align: center;
+    height: 450px;
+    background-image: url('images/biography-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.type div{
+    width: 38%;
+    float: left;
+    margin-left: 8%;
+    text-align: left;
+    box-shadow: .4rem .4rem .7rem grey;
+    border-left: 3px solid;
+    border-image: linear-gradient(to bottom,rgb(0, 238, 255),rgb(129, 41, 230));
+    border-image-slice: 1;
+    height: 15rem;
+    padding: 3rem;
+    background:linear-gradient(to bottom right,#ffffff,#dfeef5);
+}
+.type h3{
+    color: rgb(28, 201, 245);
+}
+
+
+/* footer designing*/
+
+footer{
+    text-align: center;
+    padding: 2rem;
+    background-image: url('images/footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+footer h2,
+footer h4{
+    text-transform: capitalize;
+    margin-bottom: .7rem;
+}
+footer h6{
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+footer .contact{
+    background: linear-gradient(to bottom right,rgb(0, 238, 255),rgb(129, 41, 230));
+    width: 50%;
+    margin: auto;
+    padding: 2rem 0;
+    margin-top: 1.5rem;
+    border-radius: .3rem;
+    color: #ffffff;
+}
